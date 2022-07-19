@@ -2,19 +2,48 @@ body{
     background-color: rgba(171, 156, 255, 0.661);
 }
 
-table{
+table {
     margin-top: 5%;
     margin-left: 20%;
 }
 
 table tr td {
-
+    font-size: 25px;
     width: 100px;
     height: 60px;
     border: 1px solid black;
+}
+
+table tr td:hover{
+    font-size: 28px;
+    color: rgb(160, 50, 50);
+    background-color: aqua;
+    cursor: pointer;
 }
 #main h1{
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: rgb(0, 109, 225);
     text-align: center;
+}
+
+#result{
+    position: relative;
+    left: 42%;
+    height: 38px;
+    font-size: 18px;
+}
+button {
+    margin-left: 47%;
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 30px;
+    width: 140px;
+    background-color: beige;
+}
+button:hover{
+    color: rgb(255, 0, 30);
+    font-weight: bold;
+    font-size: 20px ;
+    background-color: yellow;
+    cursor: pointer;
 }
