@@ -10,40 +10,41 @@
 <body>
     <div id="main">
         <h1>Scrabble Game</h1>
+        <input type="text" placeholder="Result" id="result">
         <table>
             <tr>
-                <td onClick="letter()" id="letter"></td>
-                <td onClick="letter()" id="letter"></td>
-                <td onClick="letter()" id="letter"></td>
-                <td onClick="letter()" id="letter"></td>
-                <td onClick="letter()"></td>
-                <td onClick="letter()"></td>
-                <td onClick="letter()"></td>
+                <td onClick="letter('a')">a</td>
+                <td onClick="letter('b')">b</td>
+                <td onClick="letter('c')">c</td>
+                <td onClick="letter('d')">d</td>
+                <td onClick="letter('e')">e</td>
+                <td onClick="letter('f')">f</td>
+                <td onClick="letter('g')">g</td>
             </tr>
             <tr>
-                <td onClick="letter()"></td>
-                <td onClick="letter()"></td>
-                <td onClick="letter()"></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td onClick="letter('h')">h</td>
+                <td onClick="letter('i')">i</td>
+                <td onClick="letter('j')">j</td>
+                <td onClick="letter('k')">k</td>
+                <td onClick="letter('l')">l</td>
+                <td onClick="letter('m')">m</td>
+                <td onClick="letter('n')">n</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td onClick="letter('o')">o</td>
+                <td onClick="letter('p')">p</td>
+                <td onClick="letter('q')">q</td>
+                <td onClick="letter('r')">r</td>
+                <td onClick="letter('s')">s</td>
+                <td onClick="letter('t')">t</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td onClick="letter('u')">u</td>
+                <td onClick="letter('v')">v</td>
+                <td onClick="letter('w')">w</td>
+                <td onClick="letter('x')">x</td>
+                <td onClick="letter('y')">y</td>
+                <td onClick="letter('z')"   >z</td>
             </tr>
             <!-- <tr>
                 <td></td>
@@ -51,6 +52,7 @@
             </tr> -->
 
         </table>
+        <button onClick="check()">Check Word</button>
     </div>
     
 </body>
