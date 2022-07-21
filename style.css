@@ -26,12 +26,25 @@ table tr td:hover{
     text-align: center;
 }
 
-#result{
+#result {
     position: relative;
     left: 42%;
     height: 38px;
     font-size: 18px;
 }
+.timer{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    position: relative;
+    left: 77%;
+    height: 38px;
+    font-size: 25px;
+    width: 15%;
+    line-height: 35px;
+    text-align: center;
+}
+    
+
 button {
     margin-left: 47%;
     font-size: 16px;
