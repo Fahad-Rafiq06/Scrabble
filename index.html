@@ -11,6 +11,9 @@
     <div id="main">
         <h1>Scrabble Game</h1>
         <input type="text" placeholder="Result" id="result">
+        <div class="timer">
+        <div id="counter"></div>
+        </div>
         <table>
             <tr>
                 <td onClick="letter('a')">a</td>
@@ -52,9 +55,13 @@
             </tr> -->
 
         </table>
-        <button onClick="check()">Check Word</button>
+        <!-- <span class="Btn" id="verifiBtn"> -->
+        <button onClick="check()">Check Word</button></span>
+        <div id="winner"></div>
+            
+          </div>
     </div>
     
 </body>
 <script src="app.js"></script>
-</html>
+</html>     
